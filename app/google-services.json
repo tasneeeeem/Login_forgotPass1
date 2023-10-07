@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20477662433",
+    "project_id": "loginforgotpass",
+    "storage_bucket": "loginforgotpass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20477662433:android:2890a9d62adb1cfc9713a0",
+        "android_client_info": {
+          "package_name": "com.example.loginforgotpass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRMaqOCqE286QpH3rAWs4Yx7xxeWKsB18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
