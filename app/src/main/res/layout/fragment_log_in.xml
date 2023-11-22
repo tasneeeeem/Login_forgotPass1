@@ -12,8 +12,8 @@
 
         <EditText
             android:id="@+id/etUsernameLogIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="225dp"
+            android:layout_height="72dp"
             android:layout_marginTop="212dp"
             android:layout_marginBottom="40dp"
             android:ems="10"
@@ -27,8 +27,8 @@
 
         <EditText
             android:id="@+id/etPasswordLogIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="214dp"
+            android:layout_height="80dp"
             android:layout_marginTop="85dp"
             android:ems="10"
             android:hint="Insert Password"
@@ -52,20 +52,30 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.597" />
+            app:layout_constraintVertical_bias="0.559" />
 
-        <TextView
-            android:id="@+id/tvSignUpLinkLogIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="270dp"
-            android:layout_marginEnd="83dp"
-            android:text="Sign Up"
+        <Button
+            android:id="@+id/btnSignUpLogIn"
+            android:layout_width="151dp"
+            android:layout_height="50dp"
+            android:text="SignUp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.941"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.689" />
+            app:layout_constraintVertical_bias="0.036" />
+
+        <Button
+            android:id="@+id/btnForgotPassLogIn"
+            android:layout_width="251dp"
+            android:layout_height="74dp"
+            android:text="Forgot Password?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.896"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.684" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

@@ -9,11 +9,13 @@ public class FireBaseServices {
    private FirebaseAuth auth;
    private FirebaseFirestore fire;
    private FirebaseStorage storage;
+   private FireBaseServices fbs;
 
    public  FireBaseServices(){
       auth=FirebaseAuth.getInstance();
       fire=FirebaseFirestore.getInstance();
       storage=FirebaseStorage.getInstance();
+      fbs=FireBaseServices.getInstance();
    }
 
    public FirebaseStorage getStorage() {
